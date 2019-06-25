@@ -22,3 +22,11 @@ function appendDriver(driver) {
 function prependDriver(driver) {
   return [driver, ...drivers.slice()]
 }
+
+function prependDriver(driver) {
+  return [driver, ...drivers.slice()]
+}
+
+function removeLastDriver() {
+  return [...drivers.slice(0, -2)]
+}
