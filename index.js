@@ -4,5 +4,5 @@ function destructivelyAppendDriver(driver) {
   drivers.push(driver)
 }
 function destructivelyPrependDriver(driver) {
-  drivers.shift(driver)
+  drivers.unshift(driver)
 }
