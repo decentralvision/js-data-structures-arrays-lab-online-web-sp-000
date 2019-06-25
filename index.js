@@ -20,5 +20,5 @@ function appendDriver(driver) {
 }
 
 function prependDriver(driver) {
-
+  return [driver, ...drivers.slice()]
 }
